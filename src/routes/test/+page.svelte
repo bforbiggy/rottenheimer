@@ -24,7 +24,7 @@
 	<div class="flex flex-col">
 		{#each questions[index].choices as choice}
 			<button
-				class="inline-flex items-center px-4 py-2 font-bold text-gray-800 bg-gray-300 rounded hover:bg-gray-400"
+				class="px-4 py-2 font-bold text-gray-800 bg-gray-300 rounded hover:bg-gray-400"
 				on:click={() => {
 					stats[choice.stat]++;
 					index++;
