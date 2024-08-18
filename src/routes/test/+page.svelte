@@ -21,16 +21,18 @@
 </script>
 
 <div class="flex flex-col items-center min-h-screen p-16">
-	<p class="text-3xl font-[Indie Flower]">
+	<p class="text-4xl font-[Indie Flower]">
 		Question {index + 1}/{questions.length}
 	</p>
-	<p>
+	<div class="my-4" />
+
+	<p class="text-3xl">
 		{questions[index].question}
 	</p>
 	<div class="flex flex-col">
 		{#each questions[index].choices as choice}
 			<button
-				class="px-4 py-2 font-bold text-gray-800 bg-gray-300 rounded hover:bg-gray-400"
+				class="px-4 py-2 text-2xl font-bold bg-gray-300 rounded hover:bg-gray-400"
 				on:click={() => {
 					results[choice.stat]++;
 					index++;

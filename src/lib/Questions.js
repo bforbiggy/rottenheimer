@@ -1,45 +1,45 @@
 export default [
 	{
-		"question": "Extrovert or introvert?",
+		"question": "Are you an alpha rizzler or a beta mouth breather?",
 		"choices": [
 			{
-				"choice": "Extrovert!",
+				"choice": "Alpha Rizzler",
 				"stat": "E",
 			},
 			{
-				"choice": "Introvert!",
+				"choice": "Beta Mouth Breather",
 				"stat": "I",
 			}
 		]
 	},
 	{
-		"question": "Sense or Intuition?",
+		"question": "You are shown being caught in 4k so you're skibidi cooked. Do you try to uno reverse card them on twitter or accept it as a #girlboss #queen moment?",
 		"choices": [
 			{
-				"choice": "Sense!",
+				"choice": "Uno reverse card",
 				"stat": "S",
 			},
 			{
-				"choice": "Intuition!",
+				"choice": "Girlboss #slay",
 				"stat": "N",
 			}
 		]
 	},
 	{
-		"question": "Thinking or Feeling?",
+		"question": "A blud walks up to you and starts yapping. Do you let your aura speak or do you powerscale them first?",
 		"choices": [
 			{
-				"choice": "Thinking!",
+				"choice": "Powerscale their ass",
 				"stat": "T",
 			},
 			{
-				"choice": "Feeling!",
+				"choice": "Aura tech the bastard",
 				"stat": "F",
 			}
 		]
 	},
 	{
-		"question": "Judging or Perceiving?",
+		"question": "When you are gooning, do you lock in and edgemaxx or do you \"Nah, imma do my own thing.\"",
 		"choices": [
 			{
 				"choice": "Judging!",

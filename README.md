@@ -1,4 +1,4 @@
-# Stickler
+# Rottenheimer
 
 ## Running + Building
 
