@@ -1,6 +1,6 @@
 <script>
 	import { goto } from "$app/navigation";
-	import Mystery from "$lib/mystery.png";
+	import Mystery from "$lib/assets/mystery.png";
 </script>
 
 <div class="flex flex-col items-center min-h-screen p-16">
