@@ -44,7 +44,7 @@ export default {
 	ISTP: {
 		image: Himdoriya,
 		name: "Himdoriya",
-		blurb: "\"Himdoriya is literally him.\"",
+		blurb: "\"I'm not him...\"",
 		pros: [
 			{
 				short: "REAL",
