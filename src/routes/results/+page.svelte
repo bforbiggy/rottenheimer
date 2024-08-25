@@ -1,9 +1,9 @@
 <script>
 	import { page } from "$app/stores";
+	import Mystery from "$lib/assets/mystery.png";
 	import Personalities from "$lib/Personalities.js";
 
-	let searchParams = $page.url.searchParams;
-	let personality = searchParams.get("personality");
+	let personality = $page.url.searchParams.get("personality");
 	let representation = Personalities[personality];
 </script>
 
@@ -11,12 +11,13 @@
 	<p class="text-5xl font-bold">
 		{representation?.name || personality || "The Undefined"}
 	</p>
-	<p class="text-xl opacity-60">
-		{representation?.description || "Trying to break the system are we?	"}
-	</p>
 	<img
-		class="size-[600px] max-w-full h-auto"
-		src={representation.image}
+		class="w-[500px] h-auto border-4 border-black p-1 rounded-md"
+		src={representation?.image || Mystery}
 		alt=""
 	/>
+	<div class="mt-2" />
+	<p class="text-xl opacity-60">
+		{representation?.blurb || '"This isn\'t right."'}
+	</p>
 </div>

@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['Indie Flower', ...defaultTheme.fontFamily.sans],
+        'silly': ['Indie Flower', ...defaultTheme.fontFamily.sans],
       },
     },
   },
