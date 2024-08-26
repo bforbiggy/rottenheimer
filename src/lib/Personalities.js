@@ -1,8 +1,32 @@
 import Jonkler from "$lib/assets/jonkler.png";
 import Mighty from "$lib/assets/mighty.png";
 import Himdoriya from "$lib/assets/himdoriya.png";
+import Mewer from "$lib/assets/mewer.png";
+import Oppenheimer from "$lib/assets/oppenheimer.png";
 
 export default {
+	// ALL 16 PERSONALITIES SORTED 
+	ESTJ: undefined,
+	ESTP: {
+		image: Mewer,
+		name: "Giga Mewer",
+		blurb: "\"I do mew, how could you tell?\"",
+		pros: [
+			{
+				short: "Alpha",
+				long: "Ain't no playing no games straight up +1 million aura"
+			}
+		],
+		cons: [
+			{
+				short: "Gooner",
+				long: "You lack the discipline to edge"
+			}
+		]
+	},
+	ESFJ: undefined,
+	ESFP: undefined,
+	ENTJ: undefined,
 	ENTP: {
 		image: Jonkler,
 		name: "The Jonkler",
@@ -41,6 +65,8 @@ export default {
 			}
 		]
 	},
+	ENFP: undefined,
+	ISTJ: undefined,
 	ISTP: {
 		image: Himdoriya,
 		name: "Himdoriya",
@@ -57,5 +83,27 @@ export default {
 				long: "\"Like an imposter, you can't trust your gut for no reason\"",
 			}
 		]
-	}
+	},
+	ISFJ: undefined,
+	ISFP: undefined,
+	INTJ: undefined,
+	INTP: {
+		image: Oppenheimer,
+		name: "Oppenheimer",
+		blurb: "\"My le bomb.... le killed people?\"",
+		pros: [
+			{
+				short: "Third Eye",
+				long: "THE VOICES TELL ME EVERYTHING"
+			}
+		],
+		cons: [
+			{
+				short: "Mind's eye",
+				long: "THE VOICES TELL ME TOO MUCH"
+			}
+		]
+	},
+	INFJ: undefined,
+	INFP: undefined
 }
