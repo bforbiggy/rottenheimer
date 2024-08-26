@@ -5,7 +5,6 @@ import Mewer from "$lib/assets/mewer.png";
 import Oppenheimer from "$lib/assets/oppenheimer.png";
 
 export default {
-	// ALL 16 PERSONALITIES SORTED 
 	ESTJ: undefined,
 	ESTP: {
 		image: Mewer,
