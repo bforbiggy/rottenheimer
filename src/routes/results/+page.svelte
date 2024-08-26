@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex flex-col max-w-[100vw] items-center min-h-screen p-4 lg:p-16">
-	<p class="text-5xl font-bold">
+	<p class="py-4 text-5xl font-bold">
 		{representation?.name || personality || "The Undefined"}
 	</p>
 	<img
